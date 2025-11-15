@@ -2,6 +2,7 @@ import { AppProvider, Page, Text } from "@shopify/polaris";
 import "@shopify/polaris/build/esm/styles.css";
 import HelloMessage from "./../HelloMessage";
 import HelloMessage2 from "./../HelloMessage2";
+import HelloMessageC from "./../components/HelloMessegeC";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Page title="Hello Shopify App">
         <HelloMessage />
         <HelloMessage2 />
+        <HelloMessageC />
       </Page>
     </AppProvider>
   );
