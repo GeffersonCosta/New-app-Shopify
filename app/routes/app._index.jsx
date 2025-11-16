@@ -3,6 +3,9 @@ import "@shopify/polaris/build/esm/styles.css";
 import HelloMessage from "./../HelloMessage";
 import HelloMessage2 from "./../HelloMessage2";
 import HelloMessageC from "./../components/HelloMessegeC";
+import HelloShopify from "./../components/HelloShopify";
+import ClickCounter from "./../components/ClickCounter";
+import ProductList from "./../components/ProductList";
 
 export default function App() {
   return (
@@ -11,6 +14,9 @@ export default function App() {
         <HelloMessage />
         <HelloMessage2 />
         <HelloMessageC />
+        <HelloShopify />
+        <ClickCounter />
+        <ProductList />
       </Page>
     </AppProvider>
   );
